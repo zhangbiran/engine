@@ -3,7 +3,10 @@
 
 enum TEST_TYPE
 {
-	TEST_TYPE_ACE_MESSAGE_BLOCK_TEST = 1,	//ACE_Message_Block
+	TEST_TYPE_ACE_MESSAGE_BLOCK = 1,	//ACE_Message_Block
+	TEST_TYPE_STATIC = 2,				//static
+	TEST_TYPE_ACE_FILE_Addr = 3,		//ACE_FILE_Addr
+	TEST_TYPE_ACE_Thread_Manager = 4,	//ACE_Thread_Manager
 };
 
 class CTest

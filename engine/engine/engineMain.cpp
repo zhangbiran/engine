@@ -1,6 +1,6 @@
 #include <iostream>
-#include "test.h"
-#include "config.h"
+#include "test/test.h"
+#include "config/config.h"
 
 int main(int argc, char **argv)
 {

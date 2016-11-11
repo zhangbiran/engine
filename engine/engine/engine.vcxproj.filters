@@ -5,38 +5,70 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\config">
+      <UniqueIdentifier>{10f540c3-f7cc-4c2e-9a67-63d115038b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test">
+      <UniqueIdentifier>{5da84713-9dd0-491a-9930-2876ec31f1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ACE_Test">
+      <UniqueIdentifier>{5aeb578a-ba4e-462f-b11e-d25b583b006f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++_Test">
+      <UniqueIdentifier>{932dd3dd-8e6c-4c77-9653-3dee193e444a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ACE_Message_Block_Test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="engineMain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="config.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="ACE_Test\ACE_Message_Block_Test.cpp">
+      <Filter>源文件\ACE_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="config\config.cpp">
+      <Filter>源文件\config</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test.cpp">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="C++_Test\static_test.cpp">
+      <Filter>源文件\C++_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ACE_Test\ACE_FILE_Addr_Test.cpp">
+      <Filter>源文件\ACE_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ACE_Test\ACE_Thread_Manager_Test.cpp">
+      <Filter>源文件\ACE_Test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="ACE_Test\ACE_Message_Block_Test.h">
+      <Filter>源文件\ACE_Test</Filter>
     </ClInclude>
-    <ClInclude Include="ACE_Message_Block_Test.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="config\config.h">
+      <Filter>源文件\config</Filter>
     </ClInclude>
-    <ClInclude Include="config.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="test\test.h">
+      <Filter>源文件\test</Filter>
     </ClInclude>
+    <ClInclude Include="C++_Test\static_test.h">
+      <Filter>源文件\C++_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="ACE_Test\ACE_FILE_Addr_Test.h">
+      <Filter>源文件\ACE_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="ACE_Test\ACE_Include.h">
+      <Filter>源文件\ACE_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="ACE_Test\ACE_Thread_Manager_Test.h">
+      <Filter>源文件\ACE_Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
   </ItemGroup>
 </Project>

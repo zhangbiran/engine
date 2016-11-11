@@ -1,7 +1,7 @@
 #ifndef __ACE_MESSAGE_BLOCK_TEST_H
 #define __ACE_MESSAGE_BLOCK_TEST_H
 
-#include "test.h"
+#include "test/test.h"
 class ACE_Message_Block_Test : public CTest
 {
 public:

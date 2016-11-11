@@ -41,8 +41,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ACE_ROOT);$(IncludePath)</IncludePath>
-    <LibraryPath>$(ACE_ROOT)\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ACE_ROOT);$(SolutionDir)engine;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ACE_ROOT)\lib;$(SolutionDir)engine\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -80,15 +80,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ACE_Message_Block_Test.cpp" />
-    <ClCompile Include="config.cpp" />
+    <ClCompile Include="ACE_Test\ACE_FILE_Addr_Test.cpp" />
+    <ClCompile Include="ACE_Test\ACE_Message_Block_Test.cpp" />
+    <ClCompile Include="ACE_Test\ACE_Thread_Manager_Test.cpp" />
+    <ClCompile Include="C++_Test\static_test.cpp" />
+    <ClCompile Include="config\config.cpp" />
     <ClCompile Include="engineMain.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="test\test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ACE_Message_Block_Test.h" />
-    <ClInclude Include="config.h" />
-    <ClInclude Include="test.h" />
+    <ClInclude Include="ACE_Test\ACE_FILE_Addr_Test.h" />
+    <ClInclude Include="ACE_Test\ACE_Include.h" />
+    <ClInclude Include="ACE_Test\ACE_Message_Block_Test.h" />
+    <ClInclude Include="ACE_Test\ACE_Thread_Manager_Test.h" />
+    <ClInclude Include="C++_Test\static_test.h" />
+    <ClInclude Include="config\config.h" />
+    <ClInclude Include="test\test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
