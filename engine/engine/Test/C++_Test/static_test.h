@@ -1,6 +1,6 @@
 #ifndef __STATIC_TEST_H
 #define __STATIC_TEST_H
-#include "test/test.h"
+#include "test.h"
 
 
 class CStatic_A
@@ -19,7 +19,7 @@ public:
 	void print();
 };
 
-class StaticTest : public CTest
+class Static_Test : public CTest
 {
 public:
 	void test(int argc, char ** argv);

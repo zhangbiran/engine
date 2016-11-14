@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <db>
+        <url>mysql://DBTwoHostIp:DBTwoHostPort/DBLog</url>
+        <maxconn>20</maxconn>
+        <user>root</user>
+        <password>DBPwd</password>
+        <url>mysql://DBTwoHostIp:DBTwoHostPort/DBLog2222</url>
+    </db>
+</root>

@@ -1,7 +1,7 @@
 #ifndef __ACE_Thread_Manager_TEST_H
 #define __ACE_Thread_Manager_TEST_H
 #include "ACE_Include.h"
-#include "test/test.h"
+#include "test.h"
 
 class ACE_Thread_Manager_Test : public CTest
 {

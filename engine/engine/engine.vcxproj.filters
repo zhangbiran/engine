@@ -1,74 +1,192 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\config">
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\config">
       <UniqueIdentifier>{10f540c3-f7cc-4c2e-9a67-63d115038b1a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\test">
-      <UniqueIdentifier>{5da84713-9dd0-491a-9930-2876ec31f1b9}</UniqueIdentifier>
+    <Filter Include="src\open_source">
+      <UniqueIdentifier>{5a16fc5a-984a-4645-8d9b-32c60842b943}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\ACE_Test">
-      <UniqueIdentifier>{5aeb578a-ba4e-462f-b11e-d25b583b006f}</UniqueIdentifier>
+    <Filter Include="src\open_source\Json">
+      <UniqueIdentifier>{749521f0-5117-43cb-905f-03cd5648b644}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\C++_Test">
-      <UniqueIdentifier>{932dd3dd-8e6c-4c77-9653-3dee193e444a}</UniqueIdentifier>
+    <Filter Include="src\open_source\Json\src">
+      <UniqueIdentifier>{09289cf1-0434-4f05-abb1-21e447595641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\open_source\TinyXml">
+      <UniqueIdentifier>{a3fbff25-5f3e-4953-84ea-26e9c00c06ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\open_source\TinyXml\src">
+      <UniqueIdentifier>{16aaa27c-179d-4578-8614-20888e858033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Test">
+      <UniqueIdentifier>{6b8ef945-a3ff-4057-ac60-17e7af60a34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Test\ACE_Test">
+      <UniqueIdentifier>{dffb6e7b-dd00-4720-ad57-c858f735be9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Test\VC_Test">
+      <UniqueIdentifier>{cab8bfc0-c6e6-4bbe-a7c8-1540f3dfa3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Test\C++_Test">
+      <UniqueIdentifier>{cb73dccd-02c9-4340-b1a1-84a4115c1958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Test\VC_Test\IOCP">
+      <UniqueIdentifier>{4e010f12-bc88-42b4-88d5-fc6575ea9bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Test\VC_Test\select">
+      <UniqueIdentifier>{ee570a70-22b0-464b-8ad1-47d0f4534eca}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engineMain.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ACE_Test\ACE_Message_Block_Test.cpp">
-      <Filter>源文件\ACE_Test</Filter>
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="config\config.cpp">
-      <Filter>源文件\config</Filter>
+      <Filter>src\config</Filter>
     </ClCompile>
-    <ClCompile Include="test\test.cpp">
-      <Filter>源文件\test</Filter>
+    <ClCompile Include="open_source\Json\src\json_reader.cpp">
+      <Filter>src\open_source\Json\src</Filter>
     </ClCompile>
-    <ClCompile Include="C++_Test\static_test.cpp">
-      <Filter>源文件\C++_Test</Filter>
+    <ClCompile Include="open_source\Json\src\json_value.cpp">
+      <Filter>src\open_source\Json\src</Filter>
     </ClCompile>
-    <ClCompile Include="ACE_Test\ACE_FILE_Addr_Test.cpp">
-      <Filter>源文件\ACE_Test</Filter>
+    <ClCompile Include="open_source\Json\src\json_writer.cpp">
+      <Filter>src\open_source\Json\src</Filter>
     </ClCompile>
-    <ClCompile Include="ACE_Test\ACE_Thread_Manager_Test.cpp">
-      <Filter>源文件\ACE_Test</Filter>
+    <ClCompile Include="test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="open_source\TinyXml\src\tinystr.cpp">
+      <Filter>src\open_source\TinyXml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="open_source\TinyXml\src\tinyxml.cpp">
+      <Filter>src\open_source\TinyXml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="open_source\TinyXml\src\tinyxmlerror.cpp">
+      <Filter>src\open_source\TinyXml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="open_source\TinyXml\src\tinyxmlparser.cpp">
+      <Filter>src\open_source\TinyXml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ACE_Test\ACE_FILE_Addr_Test.cpp">
+      <Filter>src\Test\ACE_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ACE_Test\ACE_Message_Block_Test.cpp">
+      <Filter>src\Test\ACE_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ACE_Test\ACE_Thread_Manager_Test.cpp">
+      <Filter>src\Test\ACE_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\VC_Test\NetWork\IOCP\IOCP_Client_Test.cpp">
+      <Filter>src\Test\VC_Test\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\VC_Test\NetWork\IOCP\IOCP_Server_Test.cpp">
+      <Filter>src\Test\VC_Test\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\VC_Test\NetWork\select\select_Client_Test.cpp">
+      <Filter>src\Test\VC_Test\select</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\VC_Test\NetWork\select\select_Server_Test.cpp">
+      <Filter>src\Test\VC_Test\select</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\C++_Test\static_test.cpp">
+      <Filter>src\Test\C++_Test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ACE_Test\ACE_Message_Block_Test.h">
-      <Filter>源文件\ACE_Test</Filter>
-    </ClInclude>
     <ClInclude Include="config\config.h">
-      <Filter>源文件\config</Filter>
+      <Filter>src\config</Filter>
     </ClInclude>
-    <ClInclude Include="test\test.h">
-      <Filter>源文件\test</Filter>
+    <ClInclude Include="open_source\Json\src\config.h">
+      <Filter>src\open_source\Json\src</Filter>
     </ClInclude>
-    <ClInclude Include="C++_Test\static_test.h">
-      <Filter>源文件\C++_Test</Filter>
+    <ClInclude Include="open_source\Json\src\features.h">
+      <Filter>src\open_source\Json\src</Filter>
     </ClInclude>
-    <ClInclude Include="ACE_Test\ACE_FILE_Addr_Test.h">
-      <Filter>源文件\ACE_Test</Filter>
+    <ClInclude Include="open_source\Json\src\forwards.h">
+      <Filter>src\open_source\Json\src</Filter>
     </ClInclude>
-    <ClInclude Include="ACE_Test\ACE_Include.h">
-      <Filter>源文件\ACE_Test</Filter>
+    <ClInclude Include="open_source\Json\src\json.h">
+      <Filter>src\open_source\Json\src</Filter>
     </ClInclude>
-    <ClInclude Include="ACE_Test\ACE_Thread_Manager_Test.h">
-      <Filter>源文件\ACE_Test</Filter>
+    <ClInclude Include="open_source\Json\src\json_batchallocator.h">
+      <Filter>src\open_source\Json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open_source\Json\src\reader.h">
+      <Filter>src\open_source\Json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open_source\Json\src\value.h">
+      <Filter>src\open_source\Json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open_source\Json\src\writer.h">
+      <Filter>src\open_source\Json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open_source\Json\Json_Test.h">
+      <Filter>src\open_source\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="open_source\TinyXml\src\tinystr.h">
+      <Filter>src\open_source\TinyXml\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open_source\TinyXml\src\tinyxml.h">
+      <Filter>src\open_source\TinyXml\src</Filter>
+    </ClInclude>
+    <ClInclude Include="open_source\TinyXml\TinyXml_Test.h">
+      <Filter>src\open_source\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ACE_Test\ACE_FILE_Addr_Test.h">
+      <Filter>src\Test\ACE_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ACE_Test\ACE_Include.h">
+      <Filter>src\Test\ACE_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ACE_Test\ACE_Message_Block_Test.h">
+      <Filter>src\Test\ACE_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ACE_Test\ACE_Thread_Manager_Test.h">
+      <Filter>src\Test\ACE_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\VC_Test\NetWork\IOCP\IOCP_Client_Test.h">
+      <Filter>src\Test\VC_Test\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\VC_Test\NetWork\IOCP\IOCP_Server_Test.h">
+      <Filter>src\Test\VC_Test\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\VC_Test\NetWork\select\select_Client_Test.h">
+      <Filter>src\Test\VC_Test\select</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\VC_Test\NetWork\select\select_Server_Test.h">
+      <Filter>src\Test\VC_Test\select</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\C++_Test\static_test.h">
+      <Filter>src\Test\C++_Test</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="config.txt" />
+    <None Include="open_source\Json\src\json_internalarray.inl">
+      <Filter>src\open_source\Json\src</Filter>
+    </None>
+    <None Include="open_source\Json\src\json_internalmap.inl">
+      <Filter>src\open_source\Json\src</Filter>
+    </None>
+    <None Include="open_source\Json\src\json_valueiterator.inl">
+      <Filter>src\open_source\Json\src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>

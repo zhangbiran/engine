@@ -1,0 +1,680 @@
+
+[
+	
+	{
+		"answer" : "13",
+		"option1" : "13",
+		"option2" : "15",
+		"question" : "游戏中，每个角色身上一共有多少个装备孔？",
+		"questionId" : 10001,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "8",
+		"option1" : "5",
+		"option2" : "8",
+		"question" : "游戏中，每个角色最多能同时装备多少个神格？",
+		"questionId" : 10002,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "35",
+		"option1" : "30",
+		"option2" : "35",
+		"question" : "人物背包的初始格子是多少个？",
+		"questionId" : 10003,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "5",
+		"option1" : "3",
+		"option2" : "5",
+		"question" : "一个队伍中，最多包含多少名玩家？",
+		"questionId" : 10004,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "1",
+		"option1" : "1",
+		"option2" : "5",
+		"question" : "一个队伍中，最多包含多少名队长？",
+		"questionId" : 10005,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "1",
+		"option1" : "1",
+		"option2" : "0",
+		"question" : "宠物的初始等阶是多少?",
+		"questionId" : 10006,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "1",
+		"option1" : "1",
+		"option2" : "8",
+		"question" : "一只宠物最多可以同时学习多少个天赋技能？",
+		"questionId" : 10007,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "8",
+		"option1" : "1",
+		"option2" : "8",
+		"question" : "一只宠物最多可以同时学习多少个普通技能？",
+		"questionId" : 10008,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "9",
+		"option1" : "8",
+		"option2" : "9",
+		"question" : "一只宠物最多可以同时学习多少个技能？",
+		"questionId" : 10009,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "强化人物装备",
+		"option1" : "强化人物装备",
+		"option2" : "提升宠物等阶",
+		"question" : "强化石的作用是什么？",
+		"questionId" : 10010,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "与等阶有关",
+		"option1" : "固定1个",
+		"option2" : "与等阶有关",
+		"question" : "提升一次宠物等阶，需要消耗多少个道具？",
+		"questionId" : 10011,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "E",
+		"option1" : "W",
+		"option2" : "E",
+		"question" : "打开/关闭邮箱的快捷键是？",
+		"questionId" : 10012,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "1",
+		"option1" : "0",
+		"option2" : "1",
+		"question" : "人物出生时，等级为多少？",
+		"questionId" : 10013,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "D",
+		"option1" : "R",
+		"option2" : "D",
+		"question" : "冥想的快捷键是？",
+		"questionId" : 10014,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "H",
+		"option1" : "R",
+		"option2" : "H",
+		"question" : "上/下坐骑的快捷键是？",
+		"questionId" : 10015,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "F",
+		"option1" : "F",
+		"option2" : "P",
+		"question" : "打开/关闭好友界面的快捷键是？",
+		"questionId" : 10016,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "S",
+		"option1" : "S",
+		"option2" : "B",
+		"question" : "打开/关闭商城的快捷键是？",
+		"questionId" : 10017,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "B",
+		"option1" : "S",
+		"option2" : "B",
+		"question" : "打开/关闭背包的快捷键是？",
+		"questionId" : 10018,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "1",
+		"option1" : "1",
+		"option2" : "3",
+		"question" : "每个公会可以同时拥有多少个会长？",
+		"questionId" : 10019,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "强化石",
+		"option1" : "强化石",
+		"option2" : "精灵灵气",
+		"question" : "对人物装备进行分解，可以获得以下哪种道具？",
+		"questionId" : 10020,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "5",
+		"option1" : "3",
+		"option2" : "5",
+		"question" : "阳光沙滩活动中，每天最多飞吻多少次？",
+		"questionId" : 10021,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "英雄远征",
+		"option1" : "英雄远征",
+		"option2" : "日常任务",
+		"question" : "勋章的主要产出途径是？",
+		"questionId" : 10022,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "圣十字架",
+		"option1" : "十字架",
+		"option2" : "圣十字架",
+		"question" : "人物原地复活所消耗的道具是？",
+		"questionId" : 10023,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "灵气",
+		"option1" : "灵气",
+		"option2" : "怒气",
+		"question" : "提升精灵灵脉，需要消耗金币和？",
+		"questionId" : 10024,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "48",
+		"option1" : "24",
+		"option2" : "48",
+		"question" : "离线经验找回，一次最多能找回多少小时？",
+		"questionId" : 10025,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "需要",
+		"option1" : "需要",
+		"option2" : "不需要",
+		"question" : "原地复活需要消耗道具吗？",
+		"questionId" : 10026,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "不需要",
+		"option1" : "需要",
+		"option2" : "不需要",
+		"question" : "回城复活需要消耗道具吗？",
+		"questionId" : 10027,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "1",
+		"option1" : "1",
+		"option2" : "2",
+		"question" : "原地复活每次需要消耗多少个道具？",
+		"questionId" : 10028,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "2",
+		"option1" : "2",
+		"option2" : "3",
+		"question" : "游戏中一共有多少个性别？",
+		"questionId" : 10029,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "6",
+		"option1" : "3",
+		"option2" : "6",
+		"question" : "每天最多可以完成多少次精英副本？",
+		"questionId" : 10030,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "20",
+		"option1" : "30",
+		"option2" : "20",
+		"question" : "答题活动每天最多能回答多少题？",
+		"questionId" : 10031,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "不会",
+		"option1" : "会",
+		"option2" : "不会",
+		"question" : "答题活动，答错题目会扣积分吗？",
+		"questionId" : 10032,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "参与战场活动",
+		"option1" : "参与公会战",
+		"option2" : "参与战场活动",
+		"question" : "荣誉的主要获得途径是？",
+		"questionId" : 10033,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "参与公会战",
+		"option1" : "参与公会战",
+		"option2" : "参与战场活动",
+		"question" : "功勋的主要获得途径是？",
+		"questionId" : 10034,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "20",
+		"option1" : "10",
+		"option2" : "20",
+		"question" : "游戏中，玩家每天最多可以完成多少次循环任务？",
+		"questionId" : 10035,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "6",
+		"option1" : "3",
+		"option2" : "6",
+		"question" : "精英副本每天最多进入多少次？",
+		"questionId" : 10036,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "6",
+		"option1" : "3",
+		"option2" : "6",
+		"question" : "试炼副本每天最多进入多少次？",
+		"questionId" : 10037,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "需要",
+		"option1" : "需要",
+		"option2" : "不需要",
+		"question" : "提升精灵灵脉,是否需要消耗金币？",
+		"questionId" : 10038,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "3",
+		"option1" : "1",
+		"option2" : "3",
+		"question" : "跨服场景中，每天最多可以获得多少次抢劫矿车奖励？",
+		"questionId" : 10039,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "1000",
+		"option1" : "1000",
+		"option2" : "1500",
+		"question" : "每天充值达到多少钻石可以发放红包？",
+		"questionId" : 10040,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "商城购买",
+		"option1" : "商城购买",
+		"option2" : "怪物掉落",
+		"question" : "以下哪种方式可以获得改名卡？",
+		"questionId" : 10041,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "70",
+		"option1" : "60",
+		"option2" : "70",
+		"question" : "人物等级达到多少级可以更换职业？",
+		"questionId" : 10042,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "永恒城",
+		"option1" : "永恒城",
+		"option2" : "暮光森林",
+		"question" : "更换职业的NPC在以下哪张地图中？",
+		"questionId" : 10043,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "衣柜/坐骑界面",
+		"option1" : "衣柜/坐骑界面",
+		"option2" : "人物技能界面",
+		"question" : "在以下哪个界面可以通过幻化改变当前坐骑外形？",
+		"questionId" : 10044,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "公会列表界面",
+		"option1" : "公会列表界面",
+		"option2" : "公会仓库界面",
+		"question" : "在以下哪个界面可以查看其他公会的果实是否成熟？",
+		"questionId" : 10045,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "公会商店购买",
+		"option1" : "荣誉商店购买",
+		"option2" : "公会商店购买",
+		"question" : "以下哪种是双倍经验卡的获得途径？",
+		"questionId" : 10046,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "探宝",
+		"option1" : "探宝",
+		"option2" : "公会商店购买",
+		"question" : "以下哪种方式是暗金装备的主要获得途径？",
+		"questionId" : 10047,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "非绑钻石",
+		"option1" : "非绑钻石",
+		"option2" : "精灵灵气",
+		"question" : "探宝除了获得暗金装备外，还能获得以下哪些道具？",
+		"questionId" : 10048,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "5",
+		"option1" : "3",
+		"option2" : "5",
+		"question" : "竞技场每天前几场无论输赢都能获得额外100竞技币？",
+		"questionId" : 10049,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "不能",
+		"option1" : "能",
+		"option2" : "不能",
+		"question" : "市场中能否寄售绑定道具？",
+		"questionId" : 10050,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "邀请别人更改",
+		"option1" : "邀请别人更改",
+		"option2" : "使用金币刷新",
+		"question" : "采矿任务如何改变任务颜色？",
+		"questionId" : 10051,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "领取别人分享的",
+		"option1" : "领取别人分享的",
+		"option2" : "邀请别人更改",
+		"question" : "以下哪种方式可以改变公会任务颜色？",
+		"questionId" : 10052,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "使用刷镖令刷镖",
+		"option1" : "使用刷镖令刷镖",
+		"option2" : "使用钻石刷镖",
+		"question" : "如何改变护送任务的矿车颜色？",
+		"questionId" : 10053,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "双倍时间内完成",
+		"option1" : "双倍时间内完成",
+		"option2" : "使用双倍经验卡",
+		"question" : "以下哪种方式可以提高护送任务的奖励？",
+		"questionId" : 10054,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "两个",
+		"option1" : "两个",
+		"option2" : "一个",
+		"question" : "每天有多少个时段采矿任务奖励双倍？",
+		"questionId" : 10055,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "命格-活动界面",
+		"option1" : "命格-活动界面",
+		"option2" : "公告界面",
+		"question" : "在以下哪个界面可以查看每天的活动时间？",
+		"questionId" : 10056,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "能",
+		"option1" : "能",
+		"option2" : "不能",
+		"question" : "战场中，终结别人的连斩能否获得额外的荣誉？",
+		"questionId" : 10057,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "能",
+		"option1" : "能",
+		"option2" : "不能",
+		"question" : "战场中，增加连斩数能否获得额外的荣誉？",
+		"questionId" : 10058,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "击杀世界BOSS",
+		"option1" : "击杀世界BOSS",
+		"option2" : "完成日常任务",
+		"question" : "以下哪种方式可以获得坐骑类装备？",
+		"questionId" : 10059,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "占领更多神塔",
+		"option1" : "占领更多神塔",
+		"option2" : "击杀更多玩家",
+		"question" : "在公会战中，如何快速增加积分？",
+		"questionId" : 10060,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "5",
+		"option1" : "3",
+		"option2" : "5",
+		"question" : "竞技场每天必须参与多少场才能获得获得结算奖励？",
+		"questionId" : 10061,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "VIP专属副本",
+		"option1" : "VIP专属副本",
+		"option2" : "试炼副本",
+		"question" : "以下哪个副本可以获得精灵装备？",
+		"questionId" : 10062,
+		"type" : 1
+	},
+	
+	{
+		"answer" : "概率抵抗异常",
+		"option1" : "概率抵抗异常",
+		"option2" : "概率反弹伤害",
+		"question" : "50暗金装备技能【战灵护体】的效果是？",
+		"questionId" : 10063,
+		"type" : 1
+	},
+	
+	{
+		"option1" : "你不胖 ",
+		"option2" : "在开会 ",
+		"option3" : "最后一杯 ",
+		"option4" : "我就抱着你什么也不干",
+		"question" : "男生最大的谎言",
+		"questionId" : 20001,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "小指留长指甲 ",
+		"option2" : "穿包臀紧身裤 ",
+		"option3" : "约会AA制",
+		"option4" : "不讲究卫生",
+		"question" : "女生最讨厌男生的行为是",
+		"questionId" : 20002,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "临界点时找到洗手间 ",
+		"option2" : "确认没有意外怀孕 ",
+		"option3" : "给前任一记耳光",
+		"option4" : "吃饭时老板少收了钱",
+		"question" : "以下哪个时刻最爽",
+		"questionId" : 20003,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "我要减肥",
+		"option2" : "不要嘛",
+		"option3" : "说实话我就原谅你",
+		"option4" : "我就看看什么也不买",
+		"question" : "女人最大的谎言",
+		"questionId" : 20004,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "榴莲 ",
+		"option2" : " 臭豆腐 ",
+		"option3" : " 香菜",
+		"option4" : "皮蛋",
+		"question" : "哪种被吐槽食品更受欢迎",
+		"questionId" : 20005,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "直接换台 ",
+		"option2" : " 叫孩子倒水 ",
+		"option3" : " 捂上孩子眼睛 ",
+		"option4" : " 若无其事",
+		"question" : "和孩子一起看电视遇到亲热镜头怎么办",
+		"questionId" : 20006,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "KTV热门歌榜基本不会 ",
+		"option2" : "开始说\"想当年\" ",
+		"option3" : "喜欢的明星开始过世",
+		"option4" : "我家孙子",
+		"question" : "什么样的情况说明你老了",
+		"questionId" : 20007,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "公司不会亏待你 ",
+		"option2" : "我就简单说两句 ",
+		"option3" : "这不是在给你压力 ",
+		"option4" : "我年轻的时候从不在乎钱",
+		"question" : "老板最大的谎言",
+		"questionId" : 20008,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "吧唧嘴 ",
+		"option2" : "夹菜翻来拣去 ",
+		"option3" : "无遮挡剔牙",
+		"option4" : "端碗倒菜",
+		"question" : "哪种吃相最让人反感",
+		"questionId" : 20009,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "孕妇要穿辐射服 ",
+		"option2" : "指甲上的月牙是健康晴雨表 ",
+		"option3" : "维生素C防感冒 ",
+		"option4" : "木瓜可以丰胸",
+		"question" : "哪个传言你最深信不疑",
+		"questionId" : 20010,
+		"type" : 2
+	},
+	
+	{
+		"option1" : "呵呵 ",
+		"option2" : "哈哈 ",
+		"option3" : "哦 ",
+		"option4" : "嗯",
+		"question" : "网络聊天时哪种回复最让人讨厌",
+		"questionId" : 20011,
+		"type" : 2
+	}
+]

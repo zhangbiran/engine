@@ -80,25 +80,57 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ACE_Test\ACE_FILE_Addr_Test.cpp" />
-    <ClCompile Include="ACE_Test\ACE_Message_Block_Test.cpp" />
-    <ClCompile Include="ACE_Test\ACE_Thread_Manager_Test.cpp" />
-    <ClCompile Include="C++_Test\static_test.cpp" />
     <ClCompile Include="config\config.cpp" />
     <ClCompile Include="engineMain.cpp" />
-    <ClCompile Include="test\test.cpp" />
+    <ClCompile Include="open_source\Json\src\json_reader.cpp" />
+    <ClCompile Include="open_source\Json\src\json_value.cpp" />
+    <ClCompile Include="open_source\Json\src\json_writer.cpp" />
+    <ClCompile Include="open_source\TinyXml\src\tinystr.cpp" />
+    <ClCompile Include="open_source\TinyXml\src\tinyxml.cpp" />
+    <ClCompile Include="open_source\TinyXml\src\tinyxmlerror.cpp" />
+    <ClCompile Include="open_source\TinyXml\src\tinyxmlparser.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Test\ACE_Test\ACE_FILE_Addr_Test.cpp" />
+    <ClCompile Include="Test\ACE_Test\ACE_Message_Block_Test.cpp" />
+    <ClCompile Include="Test\ACE_Test\ACE_Thread_Manager_Test.cpp" />
+    <ClCompile Include="Test\C++_Test\static_test.cpp" />
+    <ClCompile Include="Test\VC_Test\NetWork\IOCP\IOCP_Client_Test.cpp" />
+    <ClCompile Include="Test\VC_Test\NetWork\IOCP\IOCP_Server_Test.cpp" />
+    <ClCompile Include="Test\VC_Test\NetWork\select\select_Client_Test.cpp" />
+    <ClCompile Include="Test\VC_Test\NetWork\select\select_Server_Test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ACE_Test\ACE_FILE_Addr_Test.h" />
-    <ClInclude Include="ACE_Test\ACE_Include.h" />
-    <ClInclude Include="ACE_Test\ACE_Message_Block_Test.h" />
-    <ClInclude Include="ACE_Test\ACE_Thread_Manager_Test.h" />
-    <ClInclude Include="C++_Test\static_test.h" />
     <ClInclude Include="config\config.h" />
-    <ClInclude Include="test\test.h" />
+    <ClInclude Include="open_source\Json\Json_Test.h" />
+    <ClInclude Include="open_source\Json\src\config.h" />
+    <ClInclude Include="open_source\Json\src\features.h" />
+    <ClInclude Include="open_source\Json\src\forwards.h" />
+    <ClInclude Include="open_source\Json\src\json.h" />
+    <ClInclude Include="open_source\Json\src\json_batchallocator.h" />
+    <ClInclude Include="open_source\Json\src\reader.h" />
+    <ClInclude Include="open_source\Json\src\value.h" />
+    <ClInclude Include="open_source\Json\src\writer.h" />
+    <ClInclude Include="open_source\TinyXml\src\tinystr.h" />
+    <ClInclude Include="open_source\TinyXml\src\tinyxml.h" />
+    <ClInclude Include="open_source\TinyXml\TinyXml_Test.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="Test\ACE_Test\ACE_FILE_Addr_Test.h" />
+    <ClInclude Include="Test\ACE_Test\ACE_Include.h" />
+    <ClInclude Include="Test\ACE_Test\ACE_Message_Block_Test.h" />
+    <ClInclude Include="Test\ACE_Test\ACE_Thread_Manager_Test.h" />
+    <ClInclude Include="Test\C++_Test\static_test.h" />
+    <ClInclude Include="Test\VC_Test\NetWork\IOCP\IOCP_Client_Test.h" />
+    <ClInclude Include="Test\VC_Test\NetWork\IOCP\IOCP_Server_Test.h" />
+    <ClInclude Include="Test\VC_Test\NetWork\select\select_Client_Test.h" />
+    <ClInclude Include="Test\VC_Test\NetWork\select\select_Server_Test.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="config.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="open_source\Json\src\json_internalarray.inl" />
+    <None Include="open_source\Json\src\json_internalmap.inl" />
+    <None Include="open_source\Json\src\json_valueiterator.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
