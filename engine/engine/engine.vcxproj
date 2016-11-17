@@ -81,7 +81,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="config\config.cpp" />
+    <ClCompile Include="CriticalSection\CriticalSection.cpp" />
     <ClCompile Include="engineMain.cpp" />
+    <ClCompile Include="Event\Win32\win32_event.cpp" />
+    <ClCompile Include="Mutex\Win32\Win32_Mutex.cpp" />
     <ClCompile Include="open_source\Json\src\json_reader.cpp" />
     <ClCompile Include="open_source\Json\src\json_value.cpp" />
     <ClCompile Include="open_source\Json\src\json_writer.cpp" />
@@ -89,6 +92,7 @@
     <ClCompile Include="open_source\TinyXml\src\tinyxml.cpp" />
     <ClCompile Include="open_source\TinyXml\src\tinyxmlerror.cpp" />
     <ClCompile Include="open_source\TinyXml\src\tinyxmlparser.cpp" />
+    <ClCompile Include="Semaphore\Win32\win32_semaphore.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="Test\ACE_Test\ACE_FILE_Addr_Test.cpp" />
     <ClCompile Include="Test\ACE_Test\ACE_Message_Block_Test.cpp" />
@@ -98,9 +102,13 @@
     <ClCompile Include="Test\VC_Test\NetWork\IOCP\IOCP_Server_Test.cpp" />
     <ClCompile Include="Test\VC_Test\NetWork\select\select_Client_Test.cpp" />
     <ClCompile Include="Test\VC_Test\NetWork\select\select_Server_Test.cpp" />
+    <ClCompile Include="Thread\Win32\win32_thread.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config\config.h" />
+    <ClInclude Include="CriticalSection\CriticalSection.h" />
+    <ClInclude Include="Event\Win32\win32_event.h" />
+    <ClInclude Include="Mutex\Win32\Win32_Mutex.h" />
     <ClInclude Include="open_source\Json\Json_Test.h" />
     <ClInclude Include="open_source\Json\src\config.h" />
     <ClInclude Include="open_source\Json\src\features.h" />
@@ -113,6 +121,7 @@
     <ClInclude Include="open_source\TinyXml\src\tinystr.h" />
     <ClInclude Include="open_source\TinyXml\src\tinyxml.h" />
     <ClInclude Include="open_source\TinyXml\TinyXml_Test.h" />
+    <ClInclude Include="Semaphore\Win32\win32_semaphore.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="Test\ACE_Test\ACE_FILE_Addr_Test.h" />
     <ClInclude Include="Test\ACE_Test\ACE_Include.h" />
@@ -123,6 +132,7 @@
     <ClInclude Include="Test\VC_Test\NetWork\IOCP\IOCP_Server_Test.h" />
     <ClInclude Include="Test\VC_Test\NetWork\select\select_Client_Test.h" />
     <ClInclude Include="Test\VC_Test\NetWork\select\select_Server_Test.h" />
+    <ClInclude Include="Thread\Win32\win32_thread.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="config.txt" />

@@ -45,6 +45,33 @@
     <Filter Include="src\Test\VC_Test\select">
       <UniqueIdentifier>{ee570a70-22b0-464b-8ad1-47d0f4534eca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Thread">
+      <UniqueIdentifier>{f6c50465-f8ff-46d8-94b7-cf8a0653b515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Thread\Win32">
+      <UniqueIdentifier>{26e97178-d6e1-4119-9603-c67ab52936fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Event">
+      <UniqueIdentifier>{954861d0-0017-4ffb-b26c-0f08f1a5f7d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Event\Win32">
+      <UniqueIdentifier>{4cd662b2-1db2-420f-af79-b2009e73b31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CriticalSection">
+      <UniqueIdentifier>{702f282c-bfc2-435c-93c6-b62c32a0f8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mutex">
+      <UniqueIdentifier>{688a81ca-aced-4f57-9d98-2257461f17c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mutex\Win32">
+      <UniqueIdentifier>{2d62bbd9-7e11-43c9-ab47-77071dd66ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Semaphore">
+      <UniqueIdentifier>{424fa86e-c1df-41bd-8271-7ada0a6d2c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Semaphore\Win32">
+      <UniqueIdentifier>{cfe81325-6aec-4b49-8642-1aa93245dad8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engineMain.cpp">
@@ -100,6 +127,21 @@
     </ClCompile>
     <ClCompile Include="Test\C++_Test\static_test.cpp">
       <Filter>src\Test\C++_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\Win32\win32_thread.cpp">
+      <Filter>src\Thread\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\Win32\win32_event.cpp">
+      <Filter>src\Event\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalSection\CriticalSection.cpp">
+      <Filter>src\CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex\Win32\Win32_Mutex.cpp">
+      <Filter>src\Mutex\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphore\Win32\win32_semaphore.cpp">
+      <Filter>src\Semaphore\Win32</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +213,21 @@
     </ClInclude>
     <ClInclude Include="Test\C++_Test\static_test.h">
       <Filter>src\Test\C++_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\Win32\win32_thread.h">
+      <Filter>src\Thread\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\Win32\win32_event.h">
+      <Filter>src\Event\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection\CriticalSection.h">
+      <Filter>src\CriticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex\Win32\Win32_Mutex.h">
+      <Filter>src\Mutex\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore\Win32\win32_semaphore.h">
+      <Filter>src\Semaphore\Win32</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

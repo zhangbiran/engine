@@ -12,6 +12,11 @@ enum TEST_TYPE
 	TEST_TYPE_SELECT_SERVER = 7,		//select_server
 	TEST_TYPE_JSON = 8,					//Json
 	TEST_TYPE_TINYXML = 9,				//tinyxml
+	TEST_TYPE_WIN32_THREAD = 10,		//win32 thread
+	TEST_TYPE_WIN32_EVENT = 11,			//win32 event
+	TEST_TYPE_WIN32_CRITICAL_SECTION = 12, //win32 critical section
+	TEST_TYPE_WIN32_MUTEX = 13,			//win32 mutex
+	TEST_TYPE_WIN32_SEMAPHORE = 14,		//win32 semaphore
 };
 
 class CTest

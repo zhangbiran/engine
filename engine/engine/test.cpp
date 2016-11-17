@@ -8,6 +8,11 @@
 #include "Test/VC_Test/NetWork/select/select_Server_Test.h"
 #include "open_source/Json/Json_Test.h"
 #include "open_source/TinyXml/TinyXml_Test.h"
+#include "Thread/Win32/win32_thread.h"
+#include "Event/Win32/win32_event.h"
+#include "CriticalSection/CriticalSection.h"
+#include "Mutex/Win32/Win32_Mutex.h"
+#include "Semaphore/Win32/win32_semaphore.h"
 
 #include <iostream>
 
@@ -39,6 +44,16 @@ CTest * CTestFactory::getTestObject(int type)
 		return new Json_Test();
 	case TEST_TYPE_TINYXML:
 		return new TinyXml_Test();
+	case TEST_TYPE_WIN32_THREAD:
+		return new Win32_Therad();
+	case TEST_TYPE_WIN32_EVENT:
+		return new Win32_Event();
+	case TEST_TYPE_WIN32_CRITICAL_SECTION:
+		return new CriticalSection();
+	case TEST_TYPE_WIN32_MUTEX:
+		return new Win32_Mutex();
+	case TEST_TYPE_WIN32_SEMAPHORE:
+		return new Win32_Semaphore();
 	default:
 		break;
 	}
