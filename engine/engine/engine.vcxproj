@@ -80,6 +80,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConditionVariable\Win32\win32_ConditionVariable.cpp" />
     <ClCompile Include="config\config.cpp" />
     <ClCompile Include="CriticalSection\CriticalSection.cpp" />
     <ClCompile Include="engineMain.cpp" />
@@ -93,6 +94,7 @@
     <ClCompile Include="open_source\TinyXml\src\tinyxmlerror.cpp" />
     <ClCompile Include="open_source\TinyXml\src\tinyxmlparser.cpp" />
     <ClCompile Include="Semaphore\Win32\win32_semaphore.cpp" />
+    <ClCompile Include="SynchronizationBarrier\SynchronizationBarrier.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="Test\ACE_Test\ACE_FILE_Addr_Test.cpp" />
     <ClCompile Include="Test\ACE_Test\ACE_Message_Block_Test.cpp" />
@@ -105,6 +107,8 @@
     <ClCompile Include="Thread\Win32\win32_thread.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="APC\win32_apc.h" />
+    <ClInclude Include="ConditionVariable\Win32\win32_ConditionVariable.h" />
     <ClInclude Include="config\config.h" />
     <ClInclude Include="CriticalSection\CriticalSection.h" />
     <ClInclude Include="Event\Win32\win32_event.h" />
@@ -122,17 +126,21 @@
     <ClInclude Include="open_source\TinyXml\src\tinyxml.h" />
     <ClInclude Include="open_source\TinyXml\TinyXml_Test.h" />
     <ClInclude Include="Semaphore\Win32\win32_semaphore.h" />
+    <ClInclude Include="SynchronizationBarrier\SynchronizationBarrier.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="Test\ACE_Test\ACE_FILE_Addr_Test.h" />
     <ClInclude Include="Test\ACE_Test\ACE_Include.h" />
     <ClInclude Include="Test\ACE_Test\ACE_Message_Block_Test.h" />
     <ClInclude Include="Test\ACE_Test\ACE_Thread_Manager_Test.h" />
     <ClInclude Include="Test\C++_Test\static_test.h" />
+    <ClInclude Include="Test\C++_Test\swap.h" />
     <ClInclude Include="Test\VC_Test\NetWork\IOCP\IOCP_Client_Test.h" />
     <ClInclude Include="Test\VC_Test\NetWork\IOCP\IOCP_Server_Test.h" />
     <ClInclude Include="Test\VC_Test\NetWork\select\select_Client_Test.h" />
     <ClInclude Include="Test\VC_Test\NetWork\select\select_Server_Test.h" />
     <ClInclude Include="Thread\Win32\win32_thread.h" />
+    <ClInclude Include="UDP\udp_client.h" />
+    <ClInclude Include="UDP\udp_server.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="config.txt" />

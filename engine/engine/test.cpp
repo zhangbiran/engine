@@ -3,6 +3,7 @@
 #include "Test/ACE_Test/ACE_FILE_Addr_Test.h"
 #include "Test/ACE_Test/ACE_Thread_Manager_Test.h"
 #include "Test/C++_Test/static_test.h"
+#include "Test/C++_Test/swap.h"
 #include "Test/VC_Test/NetWork/IOCP/IOCP_Server_Test.h"
 #include "Test/VC_Test/NetWork/IOCP/IOCP_Client_Test.h"
 #include "Test/VC_Test/NetWork/select/select_Server_Test.h"
@@ -13,6 +14,12 @@
 #include "CriticalSection/CriticalSection.h"
 #include "Mutex/Win32/Win32_Mutex.h"
 #include "Semaphore/Win32/win32_semaphore.h"
+#include "SynchronizationBarrier/SynchronizationBarrier.h"
+#include "ConditionVariable/Win32/win32_ConditionVariable.h"
+#include "APC/win32_apc.h"
+#include "UDP/udp_client.h"
+#include "UDP/udp_server.h"
+
 
 #include <iostream>
 
@@ -28,7 +35,7 @@ CTest * CTestFactory::getTestObject(int type)
 	{
 	case TEST_TYPE_ACE_MESSAGE_BLOCK:
 		return new ACE_Message_Block_Test();
-	case TEST_TYPE_STATIC:
+	case TEST_TYPE_STD_STATIC:
 		return new Static_Test();
 	case TEST_TYPE_ACE_FILE_Addr:
 		return new ACE_FILE_Addr_Test();
@@ -54,6 +61,19 @@ CTest * CTestFactory::getTestObject(int type)
 		return new Win32_Mutex();
 	case TEST_TYPE_WIN32_SEMAPHORE:
 		return new Win32_Semaphore();
+	case TEST_TYPE_WIN32_SYNTHRONIZATION_BARRIER:
+		return new SynchronizationBarrier();
+	case TEST_TYPE_WIN32_CONDITION_VARIABLE:
+		return new Win32ConditionVariable();
+	case TEYP_TYPE_WIN32_APC:
+		return new Win32_APC();
+	case TEST_TYPE_STD_SWAP:
+		return new swapTest();
+	case TEST_TYPE_NETWORK_UDP_CLIENT:
+		return new UDP_client();
+	case TEST_TYPE_NETWORK_UDP_SERVER:
+		return new UDP_server();
+
 	default:
 		break;
 	}

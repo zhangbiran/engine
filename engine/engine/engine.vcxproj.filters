@@ -72,6 +72,21 @@
     <Filter Include="src\Semaphore\Win32">
       <UniqueIdentifier>{cfe81325-6aec-4b49-8642-1aa93245dad8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\SynchronizationBarrier">
+      <UniqueIdentifier>{efe21091-f66a-439a-8498-78f2a38e6c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ConditionVariable">
+      <UniqueIdentifier>{c0c51eb5-649d-431c-93a6-87f4b660e313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ConditionVariable\Win32">
+      <UniqueIdentifier>{6d0921fe-4f33-4f65-9d69-e9ec65efa690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\APC">
+      <UniqueIdentifier>{f7b3f8dc-bb3c-4822-b94a-fbc03fde77e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UDP">
+      <UniqueIdentifier>{de879b84-f0ea-4efb-82fc-bae6a093554e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engineMain.cpp">
@@ -142,6 +157,12 @@
     </ClCompile>
     <ClCompile Include="Semaphore\Win32\win32_semaphore.cpp">
       <Filter>src\Semaphore\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SynchronizationBarrier\SynchronizationBarrier.cpp">
+      <Filter>src\SynchronizationBarrier</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionVariable\Win32\win32_ConditionVariable.cpp">
+      <Filter>src\ConditionVariable\Win32</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -228,6 +249,24 @@
     </ClInclude>
     <ClInclude Include="Semaphore\Win32\win32_semaphore.h">
       <Filter>src\Semaphore\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="SynchronizationBarrier\SynchronizationBarrier.h">
+      <Filter>src\SynchronizationBarrier</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionVariable\Win32\win32_ConditionVariable.h">
+      <Filter>src\ConditionVariable\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="APC\win32_apc.h">
+      <Filter>src\APC</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\C++_Test\swap.h">
+      <Filter>src\Test\C++_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP\udp_client.h">
+      <Filter>src\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP\udp_server.h">
+      <Filter>src\UDP</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
