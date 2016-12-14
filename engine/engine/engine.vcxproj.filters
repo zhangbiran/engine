@@ -27,65 +27,77 @@
     <Filter Include="src\open_source\TinyXml\src">
       <UniqueIdentifier>{16aaa27c-179d-4578-8614-20888e858033}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Test">
-      <UniqueIdentifier>{6b8ef945-a3ff-4057-ac60-17e7af60a34b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Test\ACE_Test">
-      <UniqueIdentifier>{dffb6e7b-dd00-4720-ad57-c858f735be9f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Test\VC_Test">
-      <UniqueIdentifier>{cab8bfc0-c6e6-4bbe-a7c8-1540f3dfa3de}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Test\C++_Test">
-      <UniqueIdentifier>{cb73dccd-02c9-4340-b1a1-84a4115c1958}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Test\VC_Test\IOCP">
-      <UniqueIdentifier>{4e010f12-bc88-42b4-88d5-fc6575ea9bde}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Test\VC_Test\select">
-      <UniqueIdentifier>{ee570a70-22b0-464b-8ad1-47d0f4534eca}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\Thread">
       <UniqueIdentifier>{f6c50465-f8ff-46d8-94b7-cf8a0653b515}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\Thread\Win32">
       <UniqueIdentifier>{26e97178-d6e1-4119-9603-c67ab52936fb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Event">
-      <UniqueIdentifier>{954861d0-0017-4ffb-b26c-0f08f1a5f7d0}</UniqueIdentifier>
+    <Filter Include="src\Ws2_32">
+      <UniqueIdentifier>{a78738f6-64c7-403f-a8af-79b9c930df7d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Event\Win32">
-      <UniqueIdentifier>{4cd662b2-1db2-420f-af79-b2009e73b31d}</UniqueIdentifier>
+    <Filter Include="src\NetWork">
+      <UniqueIdentifier>{242a1542-c848-48c2-a9c2-a28bc12e743d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\CriticalSection">
-      <UniqueIdentifier>{702f282c-bfc2-435c-93c6-b62c32a0f8f5}</UniqueIdentifier>
+    <Filter Include="src\NetWork\TCP">
+      <UniqueIdentifier>{99d57868-9f0e-43f4-8a7f-b63146ff3e4c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Mutex">
-      <UniqueIdentifier>{688a81ca-aced-4f57-9d98-2257461f17c2}</UniqueIdentifier>
+    <Filter Include="src\NetWork\UDP">
+      <UniqueIdentifier>{de879b84-f0ea-4efb-82fc-bae6a093554e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Mutex\Win32">
-      <UniqueIdentifier>{2d62bbd9-7e11-43c9-ab47-77071dd66ac0}</UniqueIdentifier>
+    <Filter Include="src\synchronization">
+      <UniqueIdentifier>{5077f797-f8c4-44ee-8eb8-5da4e7de61cc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Semaphore">
-      <UniqueIdentifier>{424fa86e-c1df-41bd-8271-7ada0a6d2c6f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Semaphore\Win32">
-      <UniqueIdentifier>{cfe81325-6aec-4b49-8642-1aa93245dad8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\SynchronizationBarrier">
-      <UniqueIdentifier>{efe21091-f66a-439a-8498-78f2a38e6c21}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\ConditionVariable">
-      <UniqueIdentifier>{c0c51eb5-649d-431c-93a6-87f4b660e313}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\ConditionVariable\Win32">
-      <UniqueIdentifier>{6d0921fe-4f33-4f65-9d69-e9ec65efa690}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\APC">
+    <Filter Include="src\synchronization\APC">
       <UniqueIdentifier>{f7b3f8dc-bb3c-4822-b94a-fbc03fde77e1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\UDP">
-      <UniqueIdentifier>{de879b84-f0ea-4efb-82fc-bae6a093554e}</UniqueIdentifier>
+    <Filter Include="src\synchronization\ConditionVariable">
+      <UniqueIdentifier>{c0c51eb5-649d-431c-93a6-87f4b660e313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\synchronization\ConditionVariable\Win32">
+      <UniqueIdentifier>{6d0921fe-4f33-4f65-9d69-e9ec65efa690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\synchronization\CriticalSection">
+      <UniqueIdentifier>{702f282c-bfc2-435c-93c6-b62c32a0f8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\synchronization\Event">
+      <UniqueIdentifier>{954861d0-0017-4ffb-b26c-0f08f1a5f7d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\synchronization\Event\Win32">
+      <UniqueIdentifier>{4cd662b2-1db2-420f-af79-b2009e73b31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\synchronization\Mutex">
+      <UniqueIdentifier>{688a81ca-aced-4f57-9d98-2257461f17c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\synchronization\Mutex\Win32">
+      <UniqueIdentifier>{2d62bbd9-7e11-43c9-ab47-77071dd66ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\synchronization\Semaphore">
+      <UniqueIdentifier>{424fa86e-c1df-41bd-8271-7ada0a6d2c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\synchronization\Semaphore\Win32">
+      <UniqueIdentifier>{cfe81325-6aec-4b49-8642-1aa93245dad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\synchronization\SynchronizationBarrier">
+      <UniqueIdentifier>{efe21091-f66a-439a-8498-78f2a38e6c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ACE">
+      <UniqueIdentifier>{91955cae-bf76-4394-a929-8ec9c983d351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\C++">
+      <UniqueIdentifier>{5265ffdb-4875-4d79-8fa3-964ddfa7faac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\VC++">
+      <UniqueIdentifier>{b65d1683-6207-4198-a842-9aef3d5e8df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\VC++\NetWork">
+      <UniqueIdentifier>{59cad707-81e4-482c-8481-de00b423982a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\VC++\NetWork\IOCP">
+      <UniqueIdentifier>{bf765f66-a815-496b-b296-77787bed27fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\VC++\NetWork\select">
+      <UniqueIdentifier>{dfc336a9-38dc-48d0-86f0-85c337a3c5b8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -119,50 +131,50 @@
     <ClCompile Include="open_source\TinyXml\src\tinyxmlparser.cpp">
       <Filter>src\open_source\TinyXml\src</Filter>
     </ClCompile>
-    <ClCompile Include="Test\ACE_Test\ACE_FILE_Addr_Test.cpp">
-      <Filter>src\Test\ACE_Test</Filter>
-    </ClCompile>
-    <ClCompile Include="Test\ACE_Test\ACE_Message_Block_Test.cpp">
-      <Filter>src\Test\ACE_Test</Filter>
-    </ClCompile>
-    <ClCompile Include="Test\ACE_Test\ACE_Thread_Manager_Test.cpp">
-      <Filter>src\Test\ACE_Test</Filter>
-    </ClCompile>
-    <ClCompile Include="Test\VC_Test\NetWork\IOCP\IOCP_Client_Test.cpp">
-      <Filter>src\Test\VC_Test\IOCP</Filter>
-    </ClCompile>
-    <ClCompile Include="Test\VC_Test\NetWork\IOCP\IOCP_Server_Test.cpp">
-      <Filter>src\Test\VC_Test\IOCP</Filter>
-    </ClCompile>
-    <ClCompile Include="Test\VC_Test\NetWork\select\select_Client_Test.cpp">
-      <Filter>src\Test\VC_Test\select</Filter>
-    </ClCompile>
-    <ClCompile Include="Test\VC_Test\NetWork\select\select_Server_Test.cpp">
-      <Filter>src\Test\VC_Test\select</Filter>
-    </ClCompile>
-    <ClCompile Include="Test\C++_Test\static_test.cpp">
-      <Filter>src\Test\C++_Test</Filter>
-    </ClCompile>
     <ClCompile Include="Thread\Win32\win32_thread.cpp">
       <Filter>src\Thread\Win32</Filter>
     </ClCompile>
-    <ClCompile Include="Event\Win32\win32_event.cpp">
-      <Filter>src\Event\Win32</Filter>
+    <ClCompile Include="synchronization\ConditionVariable\Win32\win32_ConditionVariable.cpp">
+      <Filter>src\synchronization\ConditionVariable\Win32</Filter>
     </ClCompile>
-    <ClCompile Include="CriticalSection\CriticalSection.cpp">
-      <Filter>src\CriticalSection</Filter>
+    <ClCompile Include="synchronization\CriticalSection\CriticalSection.cpp">
+      <Filter>src\synchronization\CriticalSection</Filter>
     </ClCompile>
-    <ClCompile Include="Mutex\Win32\Win32_Mutex.cpp">
-      <Filter>src\Mutex\Win32</Filter>
+    <ClCompile Include="synchronization\Event\Win32\win32_event.cpp">
+      <Filter>src\synchronization\Event\Win32</Filter>
     </ClCompile>
-    <ClCompile Include="Semaphore\Win32\win32_semaphore.cpp">
-      <Filter>src\Semaphore\Win32</Filter>
+    <ClCompile Include="synchronization\Mutex\Win32\Win32_Mutex.cpp">
+      <Filter>src\synchronization\Mutex\Win32</Filter>
     </ClCompile>
-    <ClCompile Include="SynchronizationBarrier\SynchronizationBarrier.cpp">
-      <Filter>src\SynchronizationBarrier</Filter>
+    <ClCompile Include="synchronization\Semaphore\Win32\win32_semaphore.cpp">
+      <Filter>src\synchronization\Semaphore\Win32</Filter>
     </ClCompile>
-    <ClCompile Include="ConditionVariable\Win32\win32_ConditionVariable.cpp">
-      <Filter>src\ConditionVariable\Win32</Filter>
+    <ClCompile Include="synchronization\SynchronizationBarrier\SynchronizationBarrier.cpp">
+      <Filter>src\synchronization\SynchronizationBarrier</Filter>
+    </ClCompile>
+    <ClCompile Include="ACE\ACE_FILE_Addr_Test.cpp">
+      <Filter>src\ACE</Filter>
+    </ClCompile>
+    <ClCompile Include="ACE\ACE_Message_Block_Test.cpp">
+      <Filter>src\ACE</Filter>
+    </ClCompile>
+    <ClCompile Include="ACE\ACE_Thread_Manager_Test.cpp">
+      <Filter>src\ACE</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\static_test.cpp">
+      <Filter>src\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="VC++\NetWork\IOCP\IOCP_Client_Test.cpp">
+      <Filter>src\VC++\NetWork\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="VC++\NetWork\IOCP\IOCP_Server_Test.cpp">
+      <Filter>src\VC++\NetWork\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="VC++\NetWork\select\select_Client_Test.cpp">
+      <Filter>src\VC++\NetWork\select</Filter>
+    </ClCompile>
+    <ClCompile Include="VC++\NetWork\select\select_Server_Test.cpp">
+      <Filter>src\VC++\NetWork\select</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -208,65 +220,95 @@
     <ClInclude Include="open_source\TinyXml\TinyXml_Test.h">
       <Filter>src\open_source\TinyXml</Filter>
     </ClInclude>
-    <ClInclude Include="Test\ACE_Test\ACE_FILE_Addr_Test.h">
-      <Filter>src\Test\ACE_Test</Filter>
-    </ClInclude>
-    <ClInclude Include="Test\ACE_Test\ACE_Include.h">
-      <Filter>src\Test\ACE_Test</Filter>
-    </ClInclude>
-    <ClInclude Include="Test\ACE_Test\ACE_Message_Block_Test.h">
-      <Filter>src\Test\ACE_Test</Filter>
-    </ClInclude>
-    <ClInclude Include="Test\ACE_Test\ACE_Thread_Manager_Test.h">
-      <Filter>src\Test\ACE_Test</Filter>
-    </ClInclude>
-    <ClInclude Include="Test\VC_Test\NetWork\IOCP\IOCP_Client_Test.h">
-      <Filter>src\Test\VC_Test\IOCP</Filter>
-    </ClInclude>
-    <ClInclude Include="Test\VC_Test\NetWork\IOCP\IOCP_Server_Test.h">
-      <Filter>src\Test\VC_Test\IOCP</Filter>
-    </ClInclude>
-    <ClInclude Include="Test\VC_Test\NetWork\select\select_Client_Test.h">
-      <Filter>src\Test\VC_Test\select</Filter>
-    </ClInclude>
-    <ClInclude Include="Test\VC_Test\NetWork\select\select_Server_Test.h">
-      <Filter>src\Test\VC_Test\select</Filter>
-    </ClInclude>
-    <ClInclude Include="Test\C++_Test\static_test.h">
-      <Filter>src\Test\C++_Test</Filter>
-    </ClInclude>
     <ClInclude Include="Thread\Win32\win32_thread.h">
       <Filter>src\Thread\Win32</Filter>
     </ClInclude>
-    <ClInclude Include="Event\Win32\win32_event.h">
-      <Filter>src\Event\Win32</Filter>
+    <ClInclude Include="Ws2_32\gethostbyname.h">
+      <Filter>src\Ws2_32</Filter>
     </ClInclude>
-    <ClInclude Include="CriticalSection\CriticalSection.h">
-      <Filter>src\CriticalSection</Filter>
+    <ClInclude Include="Ws2_32\gethostbyaddr.h">
+      <Filter>src\Ws2_32</Filter>
     </ClInclude>
-    <ClInclude Include="Mutex\Win32\Win32_Mutex.h">
-      <Filter>src\Mutex\Win32</Filter>
+    <ClInclude Include="Ws2_32\getprotobyname.h">
+      <Filter>src\Ws2_32</Filter>
     </ClInclude>
-    <ClInclude Include="Semaphore\Win32\win32_semaphore.h">
-      <Filter>src\Semaphore\Win32</Filter>
+    <ClInclude Include="Ws2_32\getservbyname.h">
+      <Filter>src\Ws2_32</Filter>
     </ClInclude>
-    <ClInclude Include="SynchronizationBarrier\SynchronizationBarrier.h">
-      <Filter>src\SynchronizationBarrier</Filter>
+    <ClInclude Include="Ws2_32\getservbyport.h">
+      <Filter>src\Ws2_32</Filter>
     </ClInclude>
-    <ClInclude Include="ConditionVariable\Win32\win32_ConditionVariable.h">
-      <Filter>src\ConditionVariable\Win32</Filter>
+    <ClInclude Include="Ws2_32\getprotobynumber.h">
+      <Filter>src\Ws2_32</Filter>
     </ClInclude>
-    <ClInclude Include="APC\win32_apc.h">
-      <Filter>src\APC</Filter>
+    <ClInclude Include="Ws2_32\getnameinfo.h">
+      <Filter>src\Ws2_32</Filter>
     </ClInclude>
-    <ClInclude Include="Test\C++_Test\swap.h">
-      <Filter>src\Test\C++_Test</Filter>
+    <ClInclude Include="Ws2_32\getpeername.h">
+      <Filter>src\Ws2_32</Filter>
     </ClInclude>
-    <ClInclude Include="UDP\udp_client.h">
-      <Filter>src\UDP</Filter>
+    <ClInclude Include="NetWork\TCP\tcp_client.h">
+      <Filter>src\NetWork\TCP</Filter>
     </ClInclude>
-    <ClInclude Include="UDP\udp_server.h">
-      <Filter>src\UDP</Filter>
+    <ClInclude Include="NetWork\TCP\tcp_server.h">
+      <Filter>src\NetWork\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\UDP\udp_client.h">
+      <Filter>src\NetWork\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\UDP\udp_server.h">
+      <Filter>src\NetWork\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="synchronization\APC\win32_apc.h">
+      <Filter>src\synchronization\APC</Filter>
+    </ClInclude>
+    <ClInclude Include="synchronization\ConditionVariable\Win32\win32_ConditionVariable.h">
+      <Filter>src\synchronization\ConditionVariable\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="synchronization\CriticalSection\CriticalSection.h">
+      <Filter>src\synchronization\CriticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="synchronization\Event\Win32\win32_event.h">
+      <Filter>src\synchronization\Event\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="synchronization\Mutex\Win32\Win32_Mutex.h">
+      <Filter>src\synchronization\Mutex\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="synchronization\Semaphore\Win32\win32_semaphore.h">
+      <Filter>src\synchronization\Semaphore\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="synchronization\SynchronizationBarrier\SynchronizationBarrier.h">
+      <Filter>src\synchronization\SynchronizationBarrier</Filter>
+    </ClInclude>
+    <ClInclude Include="ACE\ACE_FILE_Addr_Test.h">
+      <Filter>src\ACE</Filter>
+    </ClInclude>
+    <ClInclude Include="ACE\ACE_Include.h">
+      <Filter>src\ACE</Filter>
+    </ClInclude>
+    <ClInclude Include="ACE\ACE_Message_Block_Test.h">
+      <Filter>src\ACE</Filter>
+    </ClInclude>
+    <ClInclude Include="ACE\ACE_Thread_Manager_Test.h">
+      <Filter>src\ACE</Filter>
+    </ClInclude>
+    <ClInclude Include="C++\static_test.h">
+      <Filter>src\C++</Filter>
+    </ClInclude>
+    <ClInclude Include="C++\swap.h">
+      <Filter>src\C++</Filter>
+    </ClInclude>
+    <ClInclude Include="VC++\NetWork\IOCP\IOCP_Client_Test.h">
+      <Filter>src\VC++\NetWork\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="VC++\NetWork\IOCP\IOCP_Server_Test.h">
+      <Filter>src\VC++\NetWork\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="VC++\NetWork\select\select_Client_Test.h">
+      <Filter>src\VC++\NetWork\select</Filter>
+    </ClInclude>
+    <ClInclude Include="VC++\NetWork\select\select_Server_Test.h">
+      <Filter>src\VC++\NetWork\select</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

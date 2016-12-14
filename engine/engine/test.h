@@ -26,6 +26,15 @@ enum TEST_TYPE
 	TEST_TYPE_STD_SWAP = 18,			//std swap
 	TEST_TYPE_NETWORK_UDP_SERVER = 19,	//network udp server
 	TEST_TYPE_NETWORK_UDP_CLIENT = 20,	//network udp client
+	TEST_TYPE_WS2_32_GET_HOST_BY_NAME = 21, //ws2_32	gethostbyname
+	TEST_TYPE_WS2_32_GET_HOST_BY_ADDR = 22, //ws2_32	gethostbyaddr
+	TEST_TYPE_WS2_32_GET_PROTO_BY_NAME = 23, // ws2_32	getprotobyname
+	TEST_TYPE_WS2_32_GET_SERV_BY_NAME = 24,	//ws2_32	getservbyname
+	TEST_TYPE_WS2_32_GET_SERV_BY_PORT = 25, //ws2_32	getservbyport
+	TEST_TYPE_WS2_32_GET_PROTO_BY_NUMBER = 26, //ws2_32 getprotobynumber
+	TEST_TYPE_WS2_32_GET_NAME_INFO = 27,	//ws2_32	getnameinfo
+	TEST_TYPE_WS2_32_GET_PEER_NAME = 28,	//ws2_32	getpeername
+	TEST_TYPE_NETWORK_TCP_SERVER = 29,		//network	TCP server
 };
 
 class CTest
