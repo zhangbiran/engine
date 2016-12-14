@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "windows_network", "windows_network\windows_network.vcxproj", "{3BD186C4-B6AC-4155-91BA-167D639F2DE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netbios_server", "netbios_server\netbios_server.vcxproj", "{2E77D916-2E6F-43CF-B8B6-9720B290A4D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netbios_client", "netbios_client\netbios_client.vcxproj", "{AF4D4F9C-BD00-4B17-8530-0E25BC984B79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BD186C4-B6AC-4155-91BA-167D639F2DE1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3BD186C4-B6AC-4155-91BA-167D639F2DE1}.Debug|Win32.Build.0 = Debug|Win32
+		{3BD186C4-B6AC-4155-91BA-167D639F2DE1}.Release|Win32.ActiveCfg = Release|Win32
+		{3BD186C4-B6AC-4155-91BA-167D639F2DE1}.Release|Win32.Build.0 = Release|Win32
+		{2E77D916-2E6F-43CF-B8B6-9720B290A4D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E77D916-2E6F-43CF-B8B6-9720B290A4D0}.Debug|Win32.Build.0 = Debug|Win32
+		{2E77D916-2E6F-43CF-B8B6-9720B290A4D0}.Release|Win32.ActiveCfg = Release|Win32
+		{2E77D916-2E6F-43CF-B8B6-9720B290A4D0}.Release|Win32.Build.0 = Release|Win32
+		{AF4D4F9C-BD00-4B17-8530-0E25BC984B79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF4D4F9C-BD00-4B17-8530-0E25BC984B79}.Debug|Win32.Build.0 = Debug|Win32
+		{AF4D4F9C-BD00-4B17-8530-0E25BC984B79}.Release|Win32.ActiveCfg = Release|Win32
+		{AF4D4F9C-BD00-4B17-8530-0E25BC984B79}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
