@@ -8,7 +8,7 @@ using namespace std;
 
 int main(void)
 {
-	LanaEnum_test();
+
 
 	return 0;
 }

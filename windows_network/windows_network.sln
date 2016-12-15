@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netbios_server", "netbios_s
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netbios_client", "netbios_client\netbios_client.vcxproj", "{AF4D4F9C-BD00-4B17-8530-0E25BC984B79}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netbios_server_asyn", "netbios_server_asyn\netbios_server_asyn.vcxproj", "{F3CCEA60-3821-4449-B445-7159C2900E50}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netbios_client_asyn", "netbios_client_asyn\netbios_client_asyn.vcxproj", "{766E502D-5C3E-4193-9DF4-64F7A24C3821}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +31,14 @@ Global
 		{AF4D4F9C-BD00-4B17-8530-0E25BC984B79}.Debug|Win32.Build.0 = Debug|Win32
 		{AF4D4F9C-BD00-4B17-8530-0E25BC984B79}.Release|Win32.ActiveCfg = Release|Win32
 		{AF4D4F9C-BD00-4B17-8530-0E25BC984B79}.Release|Win32.Build.0 = Release|Win32
+		{F3CCEA60-3821-4449-B445-7159C2900E50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F3CCEA60-3821-4449-B445-7159C2900E50}.Debug|Win32.Build.0 = Debug|Win32
+		{F3CCEA60-3821-4449-B445-7159C2900E50}.Release|Win32.ActiveCfg = Release|Win32
+		{F3CCEA60-3821-4449-B445-7159C2900E50}.Release|Win32.Build.0 = Release|Win32
+		{766E502D-5C3E-4193-9DF4-64F7A24C3821}.Debug|Win32.ActiveCfg = Debug|Win32
+		{766E502D-5C3E-4193-9DF4-64F7A24C3821}.Debug|Win32.Build.0 = Debug|Win32
+		{766E502D-5C3E-4193-9DF4-64F7A24C3821}.Release|Win32.ActiveCfg = Release|Win32
+		{766E502D-5C3E-4193-9DF4-64F7A24C3821}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
