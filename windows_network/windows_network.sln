@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netbios_server_asyn", "netb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netbios_client_asyn", "netbios_client_asyn\netbios_client_asyn.vcxproj", "{766E502D-5C3E-4193-9DF4-64F7A24C3821}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mailslot_server", "mailslot_server\mailslot_server.vcxproj", "{E29D1A8F-A666-4802-BA02-B921A891923C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mailslot_client", "mailslot_client\mailslot_client.vcxproj", "{F8B509C0-0A58-4CF5-AB91-E1927CF06E57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +43,14 @@ Global
 		{766E502D-5C3E-4193-9DF4-64F7A24C3821}.Debug|Win32.Build.0 = Debug|Win32
 		{766E502D-5C3E-4193-9DF4-64F7A24C3821}.Release|Win32.ActiveCfg = Release|Win32
 		{766E502D-5C3E-4193-9DF4-64F7A24C3821}.Release|Win32.Build.0 = Release|Win32
+		{E29D1A8F-A666-4802-BA02-B921A891923C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E29D1A8F-A666-4802-BA02-B921A891923C}.Debug|Win32.Build.0 = Debug|Win32
+		{E29D1A8F-A666-4802-BA02-B921A891923C}.Release|Win32.ActiveCfg = Release|Win32
+		{E29D1A8F-A666-4802-BA02-B921A891923C}.Release|Win32.Build.0 = Release|Win32
+		{F8B509C0-0A58-4CF5-AB91-E1927CF06E57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8B509C0-0A58-4CF5-AB91-E1927CF06E57}.Debug|Win32.Build.0 = Debug|Win32
+		{F8B509C0-0A58-4CF5-AB91-E1927CF06E57}.Release|Win32.ActiveCfg = Release|Win32
+		{F8B509C0-0A58-4CF5-AB91-E1927CF06E57}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
