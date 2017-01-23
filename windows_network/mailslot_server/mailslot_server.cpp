@@ -21,5 +21,7 @@ int main(void)
 		cout << buf << ":" << rcvSize << endl;
 	}
 
+	CloseHandle(mailslot_handle);
+
 	return 0;
 }

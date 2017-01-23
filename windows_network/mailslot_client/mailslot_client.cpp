@@ -24,5 +24,7 @@ int main()
 			return -1;
 		}
 	}
+
+	CloseHandle(mailslot_handle);
 	return 0;
 }
