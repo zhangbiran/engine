@@ -362,6 +362,7 @@ int main(int argc, char **argv)
 		((IcmpHeader*)icmp_data)->i_seq = seq_no++;
 		((IcmpHeader*)icmp_data)->i_cksum = checksum((USHORT*)icmp_data,
 			datasize);
+		printf("checksum: %d\n", ((IcmpHeader*)icmp_data)->i_cksum);
 		//
 		// Send the ICMP packet to the destination
 		//

@@ -47,6 +47,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "traceroute", "traceroute\tr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ras_dial", "ras_dial\ras_dial.vcxproj", "{9A52235A-91C3-49E5-9E6A-77EC6C0009B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tracert", "tracert\tracert.vcxproj", "{568EC44F-8EEB-4A07-94F7-913E3955C6E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ping2", "ping2\ping2.vcxproj", "{0C556B57-92F8-4F02-A9A1-77683AFA9620}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icmp_addr_mask", "icmp_addr_mask\icmp_addr_mask.vcxproj", "{3F76DA02-2559-4DC2-80B5-BA124358F70B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -141,6 +147,18 @@ Global
 		{9A52235A-91C3-49E5-9E6A-77EC6C0009B1}.Debug|Win32.Build.0 = Debug|Win32
 		{9A52235A-91C3-49E5-9E6A-77EC6C0009B1}.Release|Win32.ActiveCfg = Release|Win32
 		{9A52235A-91C3-49E5-9E6A-77EC6C0009B1}.Release|Win32.Build.0 = Release|Win32
+		{568EC44F-8EEB-4A07-94F7-913E3955C6E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{568EC44F-8EEB-4A07-94F7-913E3955C6E3}.Debug|Win32.Build.0 = Debug|Win32
+		{568EC44F-8EEB-4A07-94F7-913E3955C6E3}.Release|Win32.ActiveCfg = Release|Win32
+		{568EC44F-8EEB-4A07-94F7-913E3955C6E3}.Release|Win32.Build.0 = Release|Win32
+		{0C556B57-92F8-4F02-A9A1-77683AFA9620}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C556B57-92F8-4F02-A9A1-77683AFA9620}.Debug|Win32.Build.0 = Debug|Win32
+		{0C556B57-92F8-4F02-A9A1-77683AFA9620}.Release|Win32.ActiveCfg = Release|Win32
+		{0C556B57-92F8-4F02-A9A1-77683AFA9620}.Release|Win32.Build.0 = Release|Win32
+		{3F76DA02-2559-4DC2-80B5-BA124358F70B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F76DA02-2559-4DC2-80B5-BA124358F70B}.Debug|Win32.Build.0 = Debug|Win32
+		{3F76DA02-2559-4DC2-80B5-BA124358F70B}.Release|Win32.ActiveCfg = Release|Win32
+		{3F76DA02-2559-4DC2-80B5-BA124358F70B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
